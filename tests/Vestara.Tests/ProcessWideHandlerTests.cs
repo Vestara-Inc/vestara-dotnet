@@ -3,6 +3,7 @@ using Xunit;
 
 namespace Vestara.Tests;
 
+[Collection("ProcessWideDiagnostics")]
 public class ProcessWideHandlerTests
 {
     [Fact]

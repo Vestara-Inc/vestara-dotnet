@@ -6,6 +6,7 @@ using Xunit;
 
 namespace Vestara.Tests;
 
+[Collection("ProcessWideDiagnostics")]
 public class HostingLifecycleTests
 {
     [Fact]
